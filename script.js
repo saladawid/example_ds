@@ -1,4 +1,2 @@
-const p = document.querySelector('.random-number');
-
-p.innerText = Math.floor(Math.random() * 10);;
-
+const button = document.querySelector('button');
+button.addEventListener("click", () => button.innerText = `Random number: ${Math.floor(Math.random() * 10)}`);
